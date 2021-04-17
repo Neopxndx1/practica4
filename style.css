@@ -1,0 +1,50 @@
+
+#mensajes{
+    background-color: whitesmoke;
+    padding-left: 15px;
+    width: autp;
+    height: 300px;
+    overflow: scroll;
+    display: grid;
+    gap: 5px;
+
+}
+
+#usuarios{
+    background-color: whitesmoke;
+    padding-left: 5px;
+    width: auto;
+    height: 300px;
+    overflow: scroll;
+}
+
+body{
+    background: radial-gradient(black 3px, transparent 4px), radial-gradient(black 3px, transparent 4px), linear-gradient(rgb(175, 166, 172) 4px, transparent 0), linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px), linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px), #fff;
+    background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    color: #000000;
+    font-family: 'Indie Flower', cursive;
+}
+
+.container{
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+    display: grid;
+    gap: 5px;
+}
+
+.container{
+    border: 20px double rgb(139, 0, 0);
+    padding: 10px;
+    overflow: hidden;
+}
+
+.container > .div{
+    grid-column: span 1;
+}
+
+li:hover{
+    background-color: yellowgreen;
+}
